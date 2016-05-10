@@ -5,5 +5,15 @@
 # pirates_say_arrrrrrrrr("Pirates say arrrrrrrrr")        # => "arrrrrrrr"
 
 def pirates_say_arrrrrrrrr(string)
+	arr = string.chars
+	letters = []
+	
+	arr.each_with_index do |el, i| 
+		if /[Rr]/.match(el) 
+			letters << 	arr[i += 1]
+		end
+	end
 
+	letters.join
+	
 end
