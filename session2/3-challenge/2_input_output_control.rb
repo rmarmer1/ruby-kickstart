@@ -39,6 +39,7 @@ end
 #**************
 #	This code passes the tests, but to run it via 'ruby ' it only works w/ STDIN.gets.chomp
 # ??????????????????
+# saw this fix on http://stackoverflow.com/questions/27453569/using-gets-gives-no-such-file-or-directory-error-when-i-pass-arguments-to-my/27453657
 #***************** 
 
 
