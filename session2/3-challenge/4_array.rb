@@ -9,7 +9,7 @@
 # This time you will have to define the method, it's called: get_squares
 
 def get_squares(nums)
-	nums.select { |n| nums.include? n*n }.sort
+	nums.select { |n| nums.include? n * n }.sort
 
 end
 
