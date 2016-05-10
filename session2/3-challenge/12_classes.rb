@@ -28,3 +28,4 @@ class Fraction
     gcd(b, a%b)
   end
 end
+
