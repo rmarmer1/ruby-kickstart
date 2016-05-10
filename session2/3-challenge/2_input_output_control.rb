@@ -19,11 +19,27 @@
 # and when you think it is correct, you can test it with  $ rake 2:2
 
 def hi_hi_goodbye
-  # your code here
 
+while true
+	puts "ENTER A NUMBER"
+	input = gets.chomp
+
+	if input == 'bye'
+		puts "goodbye"
+		break
+	else
+		input.to_i.times do 
+			puts "hi"
+		end
+	
+	end
+end
 end
 
-
+#**************
+#	This code passes the tests, but to run it via 'ruby ' it only works w/ STDIN.gets.chomp
+# ??????????????????
+#***************** 
 
 
 # This will just invoke the method if you run this program directly
