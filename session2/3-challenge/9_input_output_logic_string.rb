@@ -25,17 +25,6 @@
 
 def deaf_grandma
 
-huh = 'HUH?! SPEAK UP, WOZATT?'
-enquiry = ''
-while enquiry != 'BYE'
-	enquiry = gets.chomp
-
-	if enquiry != enquiry.upcase
-		puts "HUH?! SPEAK UP, SONNY!"
-	elsif enquiry != 'BYE'
-		puts 'NO, NOT SINCE 1938'
-	end
-end
 
 end
 
