@@ -21,7 +21,30 @@
 # Then make a public method called print_song that outputs all stanzas from the number of bottles of beer down to zero.
 # Add any additional methods you find helpful.
 
-def method_name
-	
-	
+# class BeerSong 
+
+#def initialize(bottles = 99)
+#	bottles = 0  if bottles < 0
+#    bottles = 99 if bottles > 99
+#    @bottles = bottles
+# end
+
+def print_song(bottles)
+	while bottles > 0 
+		puts  " OHHHH......."
+		puts bottles.to_s + " bottles of beer on the wall "
+		puts bottles.to_s + " bottles of beer..." 
+		puts  "take one down & pass it around"
+		bottles -= 1
+	if bottles >= 1
+		puts  bottles.to_s + " bottle of beer on the wall"		
+	end
+	puts "no more bottles of beer on the wall"
 end
+end
+
+# end
+
+# BeerSong.new 99
+
+print_song 99
